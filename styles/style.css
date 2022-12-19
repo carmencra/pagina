@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 
-html {
-    margin: 0%;
-}
-
 /* formato del texto */
 body {
     font-family: 'Baloo 2';
@@ -20,7 +16,6 @@ body {
 header{
     position: fixed;
     top: 0;
-    left: 0;   
     width: 100%;
     height: 10%;
     background-color: #000000;  
@@ -203,9 +198,7 @@ hr{
 .productos a {
     background-color: #1D0E19;
     border-radius: 10%;
-    /*opacity: 90%;*/
     width: 30%;
-    height: max-content;
     text-decoration: none;
 }
 
@@ -276,9 +269,9 @@ footer .redes img:hover {
 
 
 footer .discografia {
+    display: flex;
     width: 20%;
     margin: auto;
-    display: flex;
     justify-content: space-between;
 }
 
