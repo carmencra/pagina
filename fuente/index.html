@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizha</title>
+    <link rel="icon" href="images/icono.jpg">
+
+    <link rel="stylesheet" href="styles/index.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="./scripts/responsive_header_content.js"></script>
+    
+    
+    <script src="./scripts/flecha_subir.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./scripts/responsive_menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <img
+            srcset="images/logo130.png 130w,
+                    images/logo100.png 100w,
+                    images/logo70.png 70w,
+                    images/logo50.png 50w"
+            sizes="(max-width: 450px) 130px,
+                    (max-width: 550px) 50px,
+                    (max-width: 599px) 70px,
+                    (max-width: 1199px) 100px,
+                    (max-width: 1799px) 130px,
+                    130px"
+            src="images/logo130.png" alt="logo"
+        />
+    
+        <!-- MENÚ -->
+        <nav class="top_nav" id="top_nav">
+            <ul>
+                <li class="active"><a href="index.html"></a>Inicio</li>
+                <li><a href="html/musica.html">M&uacute;sica</a></li>
+                <li><a href="html/gira.html">Gira</a></li>
+                <li><a href="html/galeria.html">Galer&iacute;a</a></li>
+            </ul>
+           
+        </nav> 
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+       
+
+        <div id="compra" class="compra">
+            <a href="html/tienda.html">Compra</a>
+        </div>
+
+        
+    </header>
+
+    <main class="top">
+        <section class="bio">
+        <!-- dentro de bio estarán la imagen y todo el texto -->
+            <section class="columnas">
+            <!-- dentro de columnas está la imagen y el texto que se queda a la altura de la imagen -->
+                <section class="imagen">
+                    <img
+                        srcset="images/inicio/foto_bio220.jpg 220w,
+                                images/inicio/foto_bio160.jpg 160w,
+                                images/inicio/foto_bio130.jpg 130w"
+                        sizes="(max-width: 599px) 130px,
+                                (max-width: 1199px) 160px,
+                                (max-width: 1799px) 220px,
+                                220px"
+                                src="images/inicio/foto_bio220.jpg" alt="imagen de Rizha"
+                    />
+                </section>
+
+                <section class="texto">
+                    <h2>Introducci&oacute;n</h2>            
+                    <p>Tamara Luz Ronchese (Rosario, 26 de julio de 1999), m&aacute;s conocida como Rizha, es una cantante y actriz argentina residente en España. </p>
+
+                    <h2>Biograf&iacute;a</h2>
+                        <h3>Inicios musicales</h3>
+
+                        <p>Hija de Fernando Ronchese y Malvina Bonetto, Tamara Ronchese naci&oacute; en Rosario, pero vivi&oacute; desde su infancia en la ciudad de Las Rosas. Realiz&oacute; sus estudios primarios en la escuela Dante Alighieri (2002-2012).</p>
+
+        <!--haciendo esto, se ven por debajo de la foto                  
+                    </section>
+                </section> -->
+
+                        <section class="parrafos_sueltos">
+                            <p>A la temprana edad de 6 años aprendi&oacute; a tocar la guitarra y tan solo 2 años despu&eacute;s empez&oacute; a componer sus propias canciones en español.</p>
+                                
+                            <p>Finaliz&oacute; sus estudios secundarios en España y en el año 2018 comenz&oacute; los estudios de filosof&iacute;a en la Universidad Complutense de Madrid.</p>
+                        </section>
+                </section>
+            </section>
+        
+        <!-- el resto del texto quedará debajo de la imagen y el otro texto -->
+            <h3>Carrera profesional</h3>
+            <p>Con 13 años se mud&oacute; a España y comenz&oacute; la escuela secundaria. Despu&eacute;s, fue descubierta accidentalmente por el cazatalentos Jordi Tello de Universal Music Publishing que al escucharla en una grabaci&oacute;n casera en un m&oacute;vil le propuso desarrollar su carrera profesional.</p>
+
+            <p>A finales de 2013 apareci&oacute; por primera vez en una revista, siendo algunas de ellas Vanity Fair y 40 Principales.</p>
+            
+            <p>En 2014 lanz&oacute; al mercado su primer EP junto a Fernando G&oacute;mez (Masseratti 2lts) llamado «Grandma Jewels».</p>
+                
+            <p>En 2017 lanza su &aacute;lbum debut, llamado «Finally», en el que tambi&eacute;n se convierte en productora de su propia m&uacute;sica. El &aacute;lbum tuvo buena acogida por parte del p&uacute;blico general, de la industria y radios como Radio 3 y Los 40 Principales. En 2018 publica un EP titulado «Lifted» junto a Chesko.</p>
+                
+            <p>En 2019 se estrena como actriz en televisi&oacute;n con la segunda temporada de Skam España, producida por Zeppelin TV y emitida en Movistar+. Adem&aacute;s publica otros dos EP: «Hipnos» y «Dysnomia».</p>
+                
+            <p>En 2020 sac&oacute; su nuevo EP en español titulado "XX". Ya a finales de 2020 sac&oacute; su tercer disco titulado "Fever Dream" el cual cuenta con 10 canciones, siendo 5 de ellas colaboraciones.</p>
+        </section>
+
+
+
+        <!-- Vídeos destacados -->
+            <h1>Destacados</h1>
+            <hr> <br>
+            <section class="videos">
+                <iframe src="https://www.youtube.com/embed/29-WwWqHlaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe src="https://www.youtube.com/embed/o1RQVMPLgYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+
+            
+        <!-- Próximos conciertos -->
+            <h1>Pr&oacute;ximos conciertos</h1>
+            <hr> <br>
+            <section class="conciertos">
+                <section class="concierto">
+                    <p>fecha</p>
+                    <p>sitio: sala, estadio...</p>
+                    <p>provincia</p>
+                    <p class="tickets"><a href="https://www.songkick.com/es/artists/7526474-rizha" target="_blank">tickets</a></p>
+                </section>
+
+                <section class="concierto">
+                    <p>fecha</p>
+                    <p>sitio: sala, estadio...</p>
+                    <p>provincia</p>
+                    <p class="tickets"><a href="https://www.songkick.com/es/artists/7526474-rizha" target="_blank">tickets</a></p>
+                </section>
+            </section>
+
+            
+            
+        <!-- Productos -->
+            <h1>Productos</h1>
+            <hr> <br>
+            <section class="productos">
+                
+                <section class="producto">
+                    <a href="https://teespring.com/rizha-fanny-pack?cid=104037&page=1&pid=1018&tsmac=store&tsmic=rizha" target="_blank">
+                    
+                        <img
+                        srcset="images/tienda/565-removebg-preview260.png 260w,
+                                images/tienda/565-removebg-preview200.png 200w,
+                                images/tienda/565-removebg-preview180.png 180w"
+                        sizes="(max-width: 899px) 180px,
+                                (max-width: 1199px) 200px,
+                                (max-width: 1799px) 260px,
+                                src="images/tienda/565-removebg-preview260.png" alt="fanny pack"
+                        />
+                        <h2>Fanny pack</h2>
+                        <p>Fanny pack</p>  
+                        <p>€20.70</p> 
+                    </a>
+                </section>
+
+                
+                <section class="producto">
+                    <a href="https://teespring.com/rizha-oxytocin-bisexual-hood?cid=100069&page=1&pid=377&tsmac=store&tsmic=rizha" target="_blank"> 
+                        <img
+                        srcset="images/tienda/562-removebg-preview260.png 260w,
+                                images/tienda/562-removebg-preview200.png 200w,
+                                images/tienda/562-removebg-preview180.png 180w"
+                        sizes="(max-width: 899px) 180px,
+                                (max-width: 1199px) 200px,
+                                (max-width: 1799px) 260px,
+                                260px"
+                                src="images/tienda/562-removebg-preview260.png" alt="hoodie"
+                        />
+                        <h2>Oxytocin hoodie</h2>
+                        <p>Classic Pullover Hoodie</p>  
+                        <p>€30.00</p>    
+                    </a>
+                </section> 
+
+                <section class="producto">
+                    <a href="https://teespring.com/rizha-tattoo-collection-luc?cid=100019&page=1&pid=389&tsmac=store&tsmic=rizha" target="_blank">
+                        <img
+                        srcset="images/tienda/567-removebg-preview260.png 260w,
+                                images/tienda/567-removebg-preview200.png 200w,
+                                images/tienda/567-removebg-preview180.png 180w"
+                        sizes="(max-width: 899px) 180px,
+                                (max-width: 1199px) 200px,
+                                (max-width: 1799px) 260px,
+                                260px"
+                                src="images/tienda/567-removebg-preview260.png" alt="shirt"
+                        />
+                        <h2>Luci tattoo shirt</h2>
+                        <p>Classic Tee</p>  
+                        <p>€25.00</p> 
+                    </a>
+                </section>
+
+                <section class="producto">
+                    <a href="https://teespring.com/goodtime-pillow?cid=102700&page=1&pid=650&tsmac=store&tsmic=rizha" target="_blank">
+                        <img
+                        srcset="images/tienda/560-removebg-preview260.png 260w,
+                                images/tienda/560-removebg-preview200.png 200w,
+                                images/tienda/560-removebg-preview180.png 180w"
+                        sizes="(max-width: 899px) 180px,
+                                (max-width: 1199px) 200px,
+                                (max-width: 1799px) 260px,
+                                260px"
+                                src="images/tienda/560-removebg-preview260.png" alt="shirt"
+                        />
+                        <h2>Goodtime pillow</h2>
+                        <p>Indoor pillow</p>  
+                        <p>€25.98</p> 
+                    </a>
+                </section>
+
+            </section>
+    </main>
+
+    
+
+    <!-- flecha para subir al inicio de la página -->
+    <a href="#top"><img src="images/flecha.png" id="flecha" alt="flecha para subir al inicio"></a>
+
+
+
+    <footer>
+        <img src="images/logo.png" id="rizha" alt="logo Rizha">
+    
+        <section class="redes">
+            <a href="">
+                <img src="images/footer/instagram.png" alt="logo instagram">
+            </a>
+            
+            <a href="">
+                <img src="images/footer/youtube.png" alt="logo youtube">
+            </a>
+            
+            <a href="">
+                <img src="images/footer/twitter.png" alt="logo twitter">
+            </a>
+            
+            <a href="">
+                <img src="images/footer/spotify.png" alt="logo spotify">
+            </a>
+        </section>
+    
+        <section class="discografia">
+            <a href="https://nacionalrecords.com/">
+                <img
+                    srcset="images/footer/nacionalrecords120.png 120w,
+                            images/footer/nacionalrecords90.png 90w"
+                    sizes="(max-width: 799px) 90px,
+                            (max-width: 1799px) 120px,
+                            120px"
+                            src="images/footer/nacionalrecords120.png" alt="logo Nacional Records"
+                />
+            </a>
+    
+            <a href="https://nacionalrecords.com/privacy-policy/">Política de privacidad</a>
+        </section>
+    
+    </footer>
+</body>
+
+<script src="./scripts/responsive_header_content.js"></script>
+
+</html>

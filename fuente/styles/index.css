@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* importamos el resto de estilos css */
+@import url("header.css");
+@import url("footer.css");
+
+
+/* formato del texto */
+body {
+    font-family: 'Baloo 2';
+    line-height: 140%;
+    color: #DEB4BD;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0%;
+}
+
+main{
+    background-image: url(../images/fondo_body.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* sección completa de la biografía */
+.bio {
+    width: 80%;
+    background-color: #1D0E19;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* imagen y texto que ocupa la altura de la imagen */
+.columnas{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.bio .imagen{
+    margin-right: 3%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+main h1 {
+    margin-left: 3%;
+}
+
+h1, h2, h3 {
+    color: #65F222;
+    font-family: 'Fruktur';
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+hr{
+    border-top: 5px solid #65F222; 
+    margin-top: -1%;
+    width: 96%;
+}
+
+
+
+/* sección de vídeos destacados */
+.videos{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.videos iframe{
+    flex: 48%;
+    margin-inline: 2%;
+    width: 600px;
+    height: 350px;
+}
+
+
+
+/* sección de próximos conciertos */
+.concierto{
+    width: 86%;
+    margin: auto;
+    background-color: #1D0E19;
+    display: flex;
+    padding: 1.5%;
+    margin-bottom: 1%;
+}
+
+.concierto p{
+    margin: auto;
+    text-transform: uppercase;
+}
+
+/* sitio del concierto */
+.concierto p:nth-child(2){
+    font-size: 20px;
+}
+
+/* resto de elementos: fecha y provincia */
+.concierto p:first-child, .concierto p:nth-child(3){
+    font-size: 16px;
+}
+
+.tickets a{
+    border: 4px solid #65F222;
+    color: #65F222;
+    font-family: 'Fruktur';
+    font-size: 18px;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.tickets a:hover{    
+    background-color: #6a1e5b;
+}
+
+.conciertos{
+    margin-bottom: 5%;
+}
+
+
+
+/* sección de productos */
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+.producto {
+    margin: auto;
+    background-color: #1D0E19;
+    border-radius: 10%;
+}
+
+.productos a p{
+    color: #DEB4BD;
+}
+
+.productos a {
+    text-decoration: none;
+}
+
+.producto:hover {
+    background-color: #6a1e5b;
+}
+
+
+
+/* flecha para volver al inicio de la página */
+#flecha {
+    position: fixed;
+    z-index: 1;
+    left: auto;
+    right: 1%;
+    bottom: 2%;
+    width: 45px;
+	cursor:pointer;
+}
+
+#flecha:hover {
+    background-color: #6a1e5b;
+    border-radius: 100%;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        height: 8%;
+    }
+
+    nav ul li{
+        font-size: 22px;
+    }
+
+    #compra {
+        margin-top: 2%;
+    }
+    
+    #compra a{
+        font-size: 20px;
+    }
+
+
+    .bio h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+
+    .producto {
+        flex: 48%;
+        margin: 1%;
+    }
+
+
+    footer {
+        height: 35%;
+    }
+
+    footer .redes{
+        width: 30%;
+    }
+
+    footer .discografia {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 12px;
+    }
+    
+    header {
+        height: 6%;
+    }
+
+    nav ul li{
+        font-size: 18px;
+    }
+
+    #compra {
+        margin-top: 2%;
+    }
+
+    #compra a{
+        font-size: 16px;
+    }
+
+
+    .bio h1 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    /* sitio del concierto */
+    .concierto p:nth-child(2){
+        font-size: 18px;
+    }
+
+    /* resto de elementos: fecha y provincia */
+    .concierto p:first-child, .concierto p:nth-child(3){
+        font-size: 14px;
+    }
+
+    .tickets a{
+        font-size: 16px;
+        border: 3px solid #65F222;
+    }
+
+
+
+    .videos {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .videos iframe {
+        align-self: center;
+        width: 400px;
+        margin-bottom: 3%;
+    }
+
+
+    #flecha {
+        width: 36px;
+    }
+
+
+    footer {
+        height: 30%;
+    }
+
+    footer .redes{
+        width: 30%;
+    }
+
+    footer .discografia {
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 10px;
+    }
+    
+    header {
+        height: 5.5%;
+    }
+    
+    nav ul li{
+        font-size: 14px;
+    }
+
+    #compra {
+        margin-top: 2.5%;
+    }
+
+    #compra a{
+        font-size: 12px;
+    }
+
+    
+    .bio {
+        margin-top: 6%;
+    }
+
+    .bio h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+
+    .videos {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .videos iframe {
+        align-self: center;
+        width: 350px;
+        height: 200px; 
+        margin-bottom: 3%;
+    }
+
+
+    /* sitio del concierto */
+    .concierto p:nth-child(2){
+        font-size: 16px;
+    }
+
+    /* resto de elementos: fecha y provincia */
+    .concierto p:first-child, .concierto p:nth-child(3){
+        font-size: 12px;
+    }
+
+    .tickets a{
+        font-size: 12px;
+        border: 2px solid #65F222;
+    }
+    
+
+    .productos{
+        width: 70%;
+    }
+
+    .producto {
+        flex: 50%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+    footer {
+        height: 27%;
+    }
+
+    footer .redes{
+        width: 40%;
+    }
+
+    footer .discografia {
+        width: 55%;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    header {
+        height: 7%;
+        justify-content: center;
+    }
+
+    header img {
+        margin-left: 0%;
+    }
+    
+
+    header a.icon {
+        display: block;
+        margin-top: 3.5%;
+        margin-right: 4%;
+    }
+
+
+    .top_nav ul {
+        display: none;
+    }
+
+    
+    .top_nav_responsive {
+        margin-left: auto;
+        margin-right: 0%;
+    }
+
+    
+    .top_nav_responsive ul {
+        display: block;
+    }
+
+    .top_nav_responsive ul li:first-child {
+        margin-top: 55%;
+    }
+
+    .top_nav_responsive ul li{
+        background-color: #000000;
+        font-size: 20px;
+        padding: 21%;
+        text-align: center;
+        border: 1px solid #FFFFFF;
+    }
+
+    
+    #compra {
+        position: fixed;
+        margin-left: 20%;
+        top: 1.2%;
+    }
+
+    #compra a{
+        font-size: large;
+    }
+
+
+    
+    .videos iframe {
+        width: 280px;
+        height: 170px; 
+    }
+
+
+    /* sitio del concierto */
+    .concierto p:nth-child(2){
+        font-size: 14px;
+    }
+
+    /* resto de elementos: fecha y provincia */
+    .concierto p:first-child, .concierto p:nth-child(3){
+        font-size: 11px;
+    }
+
+    .tickets a{
+        font-size: 11px;
+    }
+
+
+
+    footer {
+        height: 25%;
+    }
+}
