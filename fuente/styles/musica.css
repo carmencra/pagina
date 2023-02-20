@@ -1,0 +1,102 @@
+/* importamos el resto de estilos css */
+@import url("body.css");
+@import url("header.css");
+@import url("footer.css");
+
+main {
+    padding: 2%;
+}
+
+.albumes, .eps, .singles, .canciones_album, .canciones_ep {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 4%;
+    gap: 8%;
+    justify-content: center;
+    margin: auto;
+}
+
+.album, .ep {
+    padding: 1%;
+}
+
+
+.portada {
+    background-color: #1D0E19;
+    border-radius: 10%;
+    padding: 10%;
+    margin-top: 1%;
+    width: max-content;
+}
+
+
+.portada:hover {
+    background-color: #6a1e5b;
+}
+
+.portada a {
+    text-decoration: none;
+    color: #DEB4BD;
+}
+
+
+.portada img {
+    width: 200px;
+    margin: auto;
+}
+
+
+.ver_spotify {
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-bottom: 15%;
+    border-radius: 10%;
+}
+
+.ver_spotify a{
+    background-color: #1D0E19;
+    border: 4px solid #65F222;
+    border-radius: 30%;
+    color: #65F222;
+    font-family: 'Fruktur';
+    font-size: 13px;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.ver_spotify a:hover{    
+    background-color: #6a1e5b;
+}
+
+
+
+.single, .cancion {
+    width: 40%;
+    display: flex;
+    background-color: #1D0E19;
+    padding: 0.5%;
+    margin-top: 1%;
+}
+
+.single p, .cancion p {
+    margin: auto;
+}
+
+.single img, .canciones_album img, .canciones_ep img {
+    width: 50px;
+}
+
+
+h2 {
+    margin-left: 3%;
+}
+
+
+
+@media screen and (max-width: 745px) {
+    .single, .cancion {
+        width: 80%;
+    }
+}

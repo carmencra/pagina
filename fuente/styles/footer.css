@@ -11,7 +11,6 @@ footer{
 footer #rizha{
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 180px;
 }
 
 
@@ -55,4 +54,79 @@ footer .discografia a:hover {
 footer .discografia a img:hover {
     background-color: #64f222c7;
     border-radius: 20%;
+}
+
+
+
+
+@media screen and (min-width: 3500px) {
+    footer {
+        height: 45%;
+    }
+}    
+
+
+@media screen and (min-width: 2200px) and (max-width: 3499px) {
+    footer {
+        height: 36%;
+    }
+}
+
+
+@media screen and (max-width: 2199px) {
+    footer {
+        height: 40%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    footer {
+        height: 40%;
+    }
+
+    footer .redes{
+        width: 30%;
+    }
+
+    footer .discografia {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    footer {
+        height: 36%;
+    }
+
+    footer .redes{
+        width: 30%;
+    }
+
+    footer .discografia {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    footer {
+        height: 30%;
+    }
+
+    footer .redes{
+        width: 40%;
+    }
+
+    footer .discografia {
+        width: 55%;
+    } 
+}
+
+
+@media screen and (max-width: 450px) {
+    footer {
+        height: 26%;
+    }
 }

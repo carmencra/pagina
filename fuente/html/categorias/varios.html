@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizha Tienda Camisetas</title>
+
+    <link rel="icon" href="../../images/icono.jpg">
+
+    <link rel="stylesheet" href="../../styles/tienda.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="../../scripts/responsive_header_content.js"></script>
+    <script src="../../scripts/flecha_subir.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../../scripts/responsive_menu.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <img
+            srcset="../../images/logo400.png 400w,
+                    ../../images/logo250.png 250w,
+                    ../../images/logo130.png 130w,
+                    ../../images/logo100.png 100w"
+            sizes="(max-width: 460px) 100px,
+                    (max-width: 2000px) 130px,
+                    (max-width: 3499px) 250px,
+                    (min-width: 3500px) 400px,
+                    130px"
+            src="../../images/logo130.png" alt="logo"
+        />
+    
+        <!-- MENÚ -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../musica.html">M&uacute;sica</a></li>
+                <li><a href="../gira.html">Gira</a></li>
+                <li><a href="../galeria.html">Galer&iacute;a</a></li>
+            </ul>
+           
+        </nav> 
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+       
+
+        <div id="compra" class="compra">
+            <a href="../tienda.html" class="active">Compra</a>
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <nav class="categorias">
+            <ul>
+                <li>
+                    <section class="icono">
+                        <a href="tienda.html">
+                            <img
+                                srcset="../../images/tienda/categorias/todo210.png 210w,
+                                        ../../images/tienda/categorias/todo130.png 130w,
+                                        ../../images/tienda/categorias/todo80.png 80w,
+                                        ../../images/tienda/categorias/todo50.png 50w"
+                                sizes="(max-width: 750px) 50px,
+                                        (max-width: 2399px) 80px,
+                                        (max-width: 3000px) 130px,
+                                        (min-width: 3001px) 210px,
+                                        80px"
+                                src="../../images/tienda/categorias/todo80.png" alt="fanny pack"
+                            />
+                        </a>
+                    </section>
+                    <h2>Todo</h2>
+                </li>
+
+                <li>
+                    <section class="icono">
+                        <a href="sudaderas.html">
+                            <img
+                                srcset="../../images/tienda/categorias/sudadera210.png 210w,
+                                        ../../images/tienda/categorias/sudadera130.png 130w,
+                                        ../../images/tienda/categorias/sudadera80.png 80w,
+                                        ../../images/tienda/categorias/sudadera50.png 50w"
+                                sizes="(max-width: 750px) 50px,
+                                        (max-width: 2399px) 80px,
+                                        (max-width: 3000px) 130px,
+                                        (min-width: 3001px) 210px,
+                                        80px"
+                                src="../../images/tienda/categorias/sudadera80.png" alt="fanny pack"
+                            />
+                        </a>
+                    </section>
+                    <h2>Sudaderas</h2>
+                </li>
+
+                <li>
+                    <section class="icono">
+                        <a href="camisetas.html">
+                            <img
+                                srcset="../../images/tienda/categorias/camiseta210.png 210w,
+                                        ../../images/tienda/categorias/camiseta130.png 130w,
+                                        ../../images/tienda/categorias/camiseta80.png 80w,
+                                        ../../images/tienda/categorias/camiseta50.png 50w"
+                                sizes="(max-width: 750px) 50px,
+                                        (max-width: 1199px) 80px,
+                                        (max-width: 2399px) 80px,
+                                        (max-width: 3000px) 130px,
+                                        (min-width: 3001px) 210px,
+                                        80px"
+                                src="../../images/tienda/categorias/camiseta80.png" alt="fanny pack"
+                            />
+                            
+                        </a>
+                    </section>
+                    <h2>Camisetas</h2>
+                </li>
+
+                <li>
+                    <section class="icono">
+                        <a href="pantalones.html">
+                            <img
+                                srcset="../../images/tienda/categorias/pantalones210.png 210w,
+                                        ../../images/tienda/categorias/pantalones130.png 130w,
+                                        ../../images/tienda/categorias/pantalones80.png 80w,
+                                        ../../images/tienda/categorias/pantalones50.png 50w"
+                                sizes="(max-width: 750px) 50px,
+                                        (max-width: 1199px) 80px,
+                                        (max-width: 2399px) 80px,
+                                        (max-width: 3000px) 130px,
+                                        (min-width: 3001px) 210px,
+                                        80px"
+                                src="../../images/tienda/categorias/pantalones80.png" alt="fanny pack"
+                            />
+                        </a>
+                    </section>
+                    <h2>Pantalones</h2>
+                </li>
+
+                <li>
+                    <section class="icono" id="active">
+                        <a href="varios.html">
+                            <img
+                                srcset="../../images/tienda/categorias/todo210.png 210w,
+                                        ../../images/tienda/categorias/varios130.png 130w,
+                                        ../../images/tienda/categorias/varios80.png 80w,
+                                        ../../images/tienda/categorias/varios50.png 50w"
+                                sizes="(max-width: 750px) 50px,
+                                        (max-width: 1199px) 80px,
+                                        (max-width: 2399px) 80px,
+                                        (max-width: 3000px) 130px,
+                                        (min-width: 3001px) 210px,
+                                        80px"
+                                src="../../images/tienda/categorias/varios80.png" alt="fanny pack"
+                            />
+                        </a>
+                    </section>
+                    <h2>Varios</h2>
+                </li>
+            </ul>
+        </nav> 
+
+        <hr>
+
+
+
+        
+
+        <section class="productos">
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-oxytocin-bisexual-hood?cid=100069&page=1&pid=377&tsmac=store&tsmic=rizha" target="_blank"> 
+                    <img
+                    srcset="../../images/tienda/tienda/bagfeverdream650.png 650w,
+                            ../../images/tienda/tienda/bagfeverdream320.png 320w,
+                            ../../images/tienda/tienda/bagfeverdream260.png 260w,
+                            ../../images/tienda/tienda/bagfeverdream200.png 200w,
+                            ../../images/tienda/tienda/bagfeverdream180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/bagfeverdream260.png" alt="tote bag"
+                    />
+                    <h3>Bag fever dream</h3>
+                    <p>Tote bag</p>  
+                    <p>€25.00</p>    
+                </a>
+            </section> 
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-tattoo-collection-luc?cid=100019&page=1&pid=389&tsmac=store&tsmic=rizha" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/buckethat650.png 650w,
+                            ../../images/tienda/tienda/buckethat320.png 320w,
+                            ../../images/tienda/tienda/buckethat260.png 260w,
+                            ../../images/tienda/tienda/buckethat200.png 200w,
+                            ../../images/tienda/tienda/buckethat180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/buckethat260.png" alt="hat"
+                    />
+                    <h3>Bucket hat</h3>
+                    <p>Bucket hat</p>  
+                    <p>€25.39</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-heaven-iphone-case?tsmac=store&tsmic=rizha&pid=649&cid=102676&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/caseheaven650.png 650w,
+                            ../../images/tienda/tienda/caseheaven320.png 320w,
+                            ../../images/tienda/tienda/caseheaven260.png 260w,
+                            ../../images/tienda/tienda/caseheaven200.png 200w,
+                            ../../images/tienda/tienda/caseheaven180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/caseheaven260.png" alt="case"
+                    />
+                    <h3>Heaven Iphone case</h3>
+                    <p>Iphone case</p>  
+                    <p>€19.98</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-iphone-case?tsmac=store&tsmic=rizha&pid=649&cid=102687&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/caseidnyvynmme650.png 650w,
+                            ../../images/tienda/tienda/caseidnyvynmme320.png 320w,
+                            ../../images/tienda/tienda/caseidnyvynmme260.png 260w,
+                            ../../images/tienda/tienda/caseidnyvynmme200.png 200w,
+                            ../../images/tienda/tienda/caseidnyvynmme180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/caseidnyvynmme260.png" alt="case"
+                    />
+                    <h3>IDNYVYNMME Iphone case</h3>
+                    <p>Iphone case</p>  
+                    <p>€19.98</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-face-mask?tsmac=store&tsmic=rizha&pid=1026&cid=104066&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/facemask650.png 650w,
+                            ../../images/tienda/tienda/facemask320.png 320w,
+                            ../../images/tienda/tienda/facemask260.png 260w,
+                            ../../images/tienda/tienda/facemask200.png 200w,
+                            ../../images/tienda/tienda/facemask180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/caseheaven260.png" alt="face mask"
+                    />
+                    <h3>Rizha face mask</h3>
+                    <p>Face mask</p>  
+                    <p>€15.00</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/fever-dream-plastic?tsmac=store&tsmic=rizha&pid=653&cid=102799&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/feverdreamposter650.png 650w,
+                            ../../images/tienda/tienda/feverdreamposter320.png 320w,
+                            ../../images/tienda/tienda/feverdreamposter260.png 260w,
+                            ../../images/tienda/tienda/feverdreamposter200.png 200w,
+                            ../../images/tienda/tienda/feverdreamposter180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/feverdreamposter260.png" alt="poster"
+                    />
+                    <h3>Fever dream poster</h3>
+                    <p>Poster 61x91cm</p>  
+                    <p>€20.00</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-oxytocin-fanny-pack?tsmac=store&tsmic=rizha&pid=1018&cid=104037&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/oxytocinfannypack650.png 650w,
+                            ../../images/tienda/tienda/oxytocinfannypack320.png 320w,
+                            ../../images/tienda/tienda/oxytocinfannypack260.png 260w,
+                            ../../images/tienda/tienda/oxytocinfannypack200.png 200w,
+                            ../../images/tienda/tienda/oxytocinfannypack180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/oxytocinfannypack260.png" alt="fanny pack"
+                    />
+                    <h3>Oxytocin fanny pack</h3>
+                    <p>Fanny pack</p>  
+                    <p>€20.80</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-oxytocin-tumblr?tsmac=store&tsmic=rizha&pid=1370&cid=104610&sid=back" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/oxytocintumblr650.png 650w,
+                            ../../images/tienda/tienda/oxytocintumblr320.png 320w,
+                            ../../images/tienda/tienda/oxytocintumblr260.png 260w,
+                            ../../images/tienda/tienda/oxytocintumblr200.png 200w,
+                            ../../images/tienda/tienda/oxytocintumblr180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/oxytocintumblr260.png" alt="tumblr"
+                    />
+                    <h3>Oxytocin tumblr</h3>
+                    <p>Stainless tumblr</p>  
+                    <p>€20.80</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-oxytocin-water?tsmac=store&tsmic=rizha&pid=1354&cid=104570&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/oxytocinwater650.png 650w,
+                            ../../images/tienda/tienda/oxytocinwater320.png 320w,
+                            ../../images/tienda/tienda/oxytocinwater260.png 260w,
+                            ../../images/tienda/tienda/oxytocinwater200.png 200w,
+                            ../../images/tienda/tienda/oxytocinwater180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/oxytocinwater260.png" alt="water bottle"
+                    />
+                    <h3>Oxytocin water</h3>
+                    <p>Stainless water bottle</p>  
+                    <p>€25.98</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-idnyvynmme-stickers?tsmac=store&tsmic=rizha&pid=794&cid=103544&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/stickeridnyvynmme650.png 650w,
+                            ../../images/tienda/tienda/stickeridnyvynmme320.png 320w,
+                            ../../images/tienda/tienda/stickeridnyvynmme260.png 260w,
+                            ../../images/tienda/tienda/stickeridnyvynmme200.png 200w,
+                            ../../images/tienda/tienda/stickeridnyvynmme180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/stickeridnyvynmme260.png" alt="sticker"
+                    />
+                    <h3>IDNYVYNMME sticker</h3>
+                    <p>Die cut sticker</p>  
+                    <p>€4.68</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-sticker-logo?tsmac=store&tsmic=rizha&pid=794&cid=103544&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/stickerlogo650.png 650w,
+                            ../../images/tienda/tienda/stickerlogo320.png 320w,
+                            ../../images/tienda/tienda/stickerlogo260.png 260w,
+                            ../../images/tienda/tienda/stickerlogo200.png 200w,
+                            ../../images/tienda/tienda/stickerlogo180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/stickerlogo260.png" alt="sticker"
+                    />
+                    <h3>Logo sticker</h3>
+                    <p>Die cut sticker</p>  
+                    <p>€6.90</p> 
+                </a>
+            </section>
+
+            <section class="producto">
+                <a href="https://teespring.com/rizha-sticker-tattoo-ok-boo?tsmac=store&tsmic=rizha&pid=794&cid=103544&sid=front" target="_blank">
+                    <img
+                    srcset="../../images/tienda/tienda/stickerokboomer650.png 650w,
+                            ../../images/tienda/tienda/stickerokboomer320.png 320w,
+                            ../../images/tienda/tienda/stickerokboomer260.png 260w,
+                            ../../images/tienda/tienda/stickerokboomer200.png 200w,
+                            ../../images/tienda/tienda/stickerokboomer180.png 180w"
+                    sizes="(max-width: 899px) 180px,
+                            (max-width: 1199px) 200px,
+                            (max-width: 1799px) 260px,
+                            (max-width: 2999px) 320px,
+                            (min-width: 3000px) 650px,
+                            260px"
+                            src="../../images/tienda/tienda/stickerokboomer260.png" alt="sticker"
+                    />
+                    <h3>Tattoo ok boomer sticker</h3>
+                    <p>Die cut sticker</p>  
+                    <p>€4.94</p> 
+                </a>
+            </section>
+
+        </section>
+
+    </main>
+
+
+
+    
+    <!-- flecha para subir al inicio de la página -->
+    <a onclick="subir_inicio(); return false; "href="#">
+        <img src="../../images/flecha.png" id="flecha" alt="flecha para subir al inicio">
+    </a>
+
+    
+
+
+
+
+    <footer>
+        <img id="rizha"
+            srcset="../../images/logo400.png 400w,
+                    ../../images/logo250.png 250w,
+                    ../../images/logo180.png 180w"
+            sizes="(max-width: 450px) 180px,
+                    (min-width: 2000px) and (max-width: 2999px) 250px,
+                    (min-width: 3000px) 400px,
+                    180px"
+            src="../../images/logo180.png" alt="logo Rizha"
+        />
+    
+        <section class="redes">
+            <a href="">
+                <img src="../../images/footer/instagram.png" alt="logo instagram">
+            </a>
+            
+            <a href="">
+                <img src="../../images/footer/youtube.png" alt="logo youtube">
+            </a>
+            
+            <a href="">
+                <img src="../../images/footer/twitter.png" alt="logo twitter">
+            </a>
+            
+            <a href="">
+                <img src="../../images/footer/spotify.png" alt="logo spotify">
+            </a>
+        </section>
+    
+        <section class="discografia">
+            <a href="https://nacionalrecords.com/">
+                <img
+                    srcset="../../images/footer/nacionalrecords364.png 364w,
+                            ../../images/footer/nacionalrecords200.png 200w,
+                            ../../images/footer/nacionalrecords120.png 120w,
+                            ../../images/footer/nacionalrecords90.png 90w"
+                    sizes="(max-width: 799px) 90px,
+                            (max-width: 2200px) 120px,
+                            (max-width: 2999px) 200px,
+                            (min-width: 3000px) 364px,
+                            120px"
+                            src="../../images/footer/nacionalrecords120.png" alt="logo Nacional Records"
+                />
+            </a>
+    
+            <a href="https://nacionalrecords.com/privacy-policy/">Política de privacidad</a>
+        </section>
+    
+    </footer>
+    
+</body>
+</html>

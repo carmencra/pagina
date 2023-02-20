@@ -1,9 +1,9 @@
 function myFunction() {
-    var x = document.getElementById("top_nav");
-    if (x.className === "top_nav") {
+    var x = document.getElementById("menu");
+    if (x.className === "menu") {
       x.className += "_responsive";
     } else {
-      x.className = "top_nav";
+      x.className = "menu";
     }
 
     var y = document.getElementById("compra");
