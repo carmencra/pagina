@@ -864,6 +864,9 @@ style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-
   list-style: none;
   padding: 0%;
 }
+.categorias ul li {
+  width: 13%;
+}
 
 .icono {
   background-color: #1D0E19;
@@ -890,8 +893,27 @@ style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-
   width: 22%;
 }
 
+@media screen and (max-width: 900px) {
+  .categorias ul li {
+    width: 16%;
+  }
+}
 @media screen and (max-width: 750px) {
   .categorias ul {
-    gap: 1%;
+    gap: 2%;
+  }
+  .categorias ul li {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .categorias ul {
+    gap: 2%;
+  }
+  .categorias ul li {
+    width: 30%;
+  }
+  .categorias h2 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

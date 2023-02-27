@@ -15,6 +15,9 @@
 		justify-content: center;
 		list-style: none;
 		padding: 0%;
+        li {
+            width: 13%;
+        }
 	}
 }
 .icono {
@@ -38,10 +41,37 @@
 .producto {
 	width: 22%;
 }
+
+
+@media screen and (max-width: 900px) {
+    .categorias {
+        ul {
+            li {
+                width: 16%;
+            }
+        }
+    } 
+}
 @media screen and (max-width: 750px) {
 	.categorias {
 		ul {
-			gap: 1%;
+			gap: 2%;
+            li {
+                width: 18%;
+            }
 		}
+	}
+}
+@media screen and (max-width: 599px) {
+	.categorias {
+		ul {
+			gap: 2%;
+            li {
+                width: 30%;
+            }
+		}
+        h2 {
+            font-size: 20px;
+        }
 	}
 }
