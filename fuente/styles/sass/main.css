@@ -399,6 +399,7 @@ footer .discografia {
   width: 35%;
   margin: auto;
   justify-content: space-evenly;
+  padding-bottom: 2%;
 }
 footer .discografia a {
   text-decoration: none;
