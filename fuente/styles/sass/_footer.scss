@@ -1,0 +1,101 @@
+/* pie de página */
+footer {
+	position: absolute;
+	background-color: $background-color_1;
+	height: 40%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	#rizha {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	.redes {
+		width: 16%;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 2%;
+		img {
+			width: 50%;
+			padding: 10%;
+			border-radius: 20%;
+			background-color: $background-color_2;
+			&:hover {
+				background-color: $background-color_3;
+			}
+		}
+	}
+	.discografia {
+		display: flex;
+		width: 35%;
+		margin: auto;
+		justify-content: space-evenly;
+		a {
+			text-decoration: none;
+			color: $color_1;
+			&:hover {
+				color: $color_2;
+			}
+			img {
+				&:hover {
+					background-color: $background-color_4;
+					border-radius: 20%;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 3500px) {
+	footer {
+		height: 45%;
+	}
+}
+@media screen and (min-width: 2200px) and (max-width: 3499px) {
+	footer {
+		height: 36%;
+	}
+}
+@media screen and (max-width: 2199px) {
+	footer {
+		height: 40%;
+	}
+}
+@media screen and (max-width: 900px) {
+	footer {
+		height: 40%;
+		.redes {
+			width: 30%;
+		}
+		.discografia {
+			width: 50%;
+		}
+	}
+}
+@media screen and (max-width: 750px) {
+	footer {
+		height: 36%;
+		.redes {
+			width: 30%;
+		}
+		.discografia {
+			width: 45%;
+		}
+	}
+}
+@media screen and (max-width: 599px) {
+	footer {
+		height: 30%;
+		.redes {
+			width: 40%;
+		}
+		.discografia {
+			width: 55%;
+		}
+	}
+}
+@media screen and (max-width: 450px) {
+	footer {
+		height: 26%;
+	}
+}

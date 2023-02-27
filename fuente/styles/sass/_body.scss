@@ -1,0 +1,162 @@
+/* fuentes */
+@import "https://fonts.googleapis.com/css2?family=Fruktur&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Baloo+2&display=swap";
+/* formato del texto */
+/* sección de productos */
+/* flecha para volver al inicio de la página */
+body {
+	font-family: $font-family_1;
+	line-height: 140%;
+	color: $color_1;
+	font-size: 16px;
+	text-align: justify;
+	margin: 0%;
+}
+main {
+	background-image: url(../images/fondo_body.png);
+	background-size: cover;
+	background-attachment: fixed;
+	h1 {
+		margin-left: 3%;
+	}
+}
+h1 {
+	color: $color_2;
+	font-family: $font-family_2;
+	text-transform: uppercase;
+}
+h2 {
+	color: $color_2;
+	font-family: $font-family_2;
+	text-transform: uppercase;
+}
+h3 {
+	color: $color_2;
+	font-family: $font-family_2;
+}
+hr {
+	border: 2px solid #65F222;
+	margin-top: -1%;
+	width: 96%;
+}
+.productos {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-bottom: 4%;
+	gap: 1%;
+	justify-content: center;
+	a {
+		p {
+			color: $color_1;
+		}
+		text-decoration: none;
+	}
+}
+.producto {
+	background-color: $background-color_1;
+	border-radius: 10%;
+	margin-bottom: 1%;
+	h3 {
+		text-transform: uppercase;
+	}
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+#flecha {
+	position: fixed;
+	z-index: 1;
+	left: auto;
+	right: 1%;
+	bottom: 2%;
+	width: 45px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+		border-radius: 100%;
+	}
+}
+@media screen and (min-width: 3500px) {
+	body {
+		font-size: 44px;
+	}
+	h1 {
+		font-size: 80px;
+	}
+	h2 {
+		font-size: 60px;
+	}
+	h3 {
+		font-size: 48px;
+	}
+	hr {
+		margin-top: 0.1%;
+		border: 6px solid #65F222;
+	}
+}
+@media screen and (min-width: 2200px) and (max-width: 3499px) {
+	body {
+		font-size: 22px;
+	}
+	h1 {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 35px;
+	}
+	hr {
+		margin-top: 0.1%;
+		border: 4px solid #65F222;
+	}
+}
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 14px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.productos {
+		width: 80%;
+		margin: auto;
+	}
+	.producto {
+		flex: 47%;
+		margin: 1%;
+	}
+}
+@media screen and (max-width: 750px) {
+	body {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	#flecha {
+		width: 36px;
+	}
+	.productos {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 599px) {
+	body {
+		font-size: 10px;
+	}
+	h2 {
+		font-size: 12px;
+	}
+	.productos {
+		width: 75%;
+	}
+	.producto {
+		flex: 50%;
+	}
+}

@@ -1,0 +1,260 @@
+/* importamos el resto de estilos css */
+@import "body.css";
+@import "header.css";
+@import "footer.css";
+/* sección completa de la biografía */
+/* imagen y texto que ocupa la altura de la imagen */
+/* sección de vídeos destacados */
+/* sección de próximos conciertos */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+/* sitio del concierto */
+/* resto de elementos: fecha y provincia */
+.bio {
+	width: 80%;
+	background-color: $background-color_1;
+	padding: 2%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.columnas {
+	display: flex;
+	margin-bottom: 4%;
+	.imagen {
+		margin-right: 3%;
+		margin-left: 1%;
+		margin-top: 1%;
+	}
+}
+.videos {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 5%;
+	iframe {
+		flex: 48%;
+		margin-inline: 2%;
+		width: 600px;
+		height: 350px;
+	}
+}
+.concierto {
+	width: 86%;
+	margin: auto;
+	background-color: $background-color_1;
+	display: flex;
+	padding: 1.5%;
+	margin-bottom: 1%;
+	p {
+		margin: auto;
+		text-transform: uppercase;
+		&:nth-child(2) {
+			font-size: 20px;
+		}
+		&:first-child {
+			font-size: 16px;
+		}
+		&:nth-child(3) {
+			font-size: 16px;
+		}
+	}
+}
+.tickets {
+	a {
+		border: 4px solid #65F222;
+		color: $color_1;
+		font-family: $font-family_1;
+		font-size: 18px;
+		text-decoration: none;
+		padding: 3%;
+		&:hover {
+			background-color: $background-color_2;
+		}
+	}
+}
+.conciertos {
+	margin-bottom: 5%;
+}
+@media screen and (min-width: 3500px) {
+	.columnas {
+		margin-bottom: 2%;
+		.imagen {
+			margin-right: 2%;
+			margin-left: 0%;
+			margin-top: 0%;
+		}
+	}
+	.biografia {
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+	.videos {
+		iframe {
+			width: 500px;
+			height: 1000px;
+		}
+	}
+	.concierto {
+		p {
+			&:nth-child(2) {
+				font-size: 60px;
+			}
+			&:first-child {
+				font-size: 50px;
+			}
+			&:nth-child(3) {
+				font-size: 50px;
+			}
+		}
+	}
+	.tickets {
+		a {
+			border: 10px solid #65F222;
+			font-size: 60px;
+			padding: 5%;
+		}
+	}
+}
+@media screen and (min-width: 2200px) and (max-width: 3499px) {
+	.columnas {
+		margin-bottom: 2%;
+	}
+	.videos {
+		iframe {
+			width: 280px;
+			height: 500px;
+		}
+	}
+	.concierto {
+		p {
+			&:nth-child(2) {
+				font-size: 32px;
+			}
+			&:first-child {
+				font-size: 26px;
+			}
+			&:nth-child(3) {
+				font-size: 26px;
+			}
+		}
+	}
+	.tickets {
+		a {
+			border: 4px solid #65F222;
+			font-size: 30px;
+			padding: 4%;
+		}
+	}
+}
+@media screen and (max-width: 900px) {
+	.bio {
+		h1 {
+			font-size: 20px;
+		}
+	}
+	.videos {
+		flex-direction: column;
+		height: 600px;
+		iframe {
+			align-self: center;
+			width: 500px;
+			margin-bottom: 3%;
+		}
+	}
+}
+@media screen and (max-width: 750px) {
+	.bio {
+		width: 90%;
+	}
+	.concierto {
+		p {
+			&:nth-child(2) {
+				font-size: 18px;
+			}
+			&:first-child {
+				font-size: 14px;
+			}
+			&:nth-child(3) {
+				font-size: 14px;
+			}
+		}
+	}
+	.tickets {
+		a {
+			font-size: 16px;
+			border: 3px solid #65F222;
+		}
+	}
+}
+@media screen and (max-width: 599px) {
+	.bio {
+		margin-top: 6%;
+		h1 {
+			font-size: 14px;
+		}
+	}
+	.videos {
+		flex-direction: column;
+		height: 400px;
+		iframe {
+			align-self: center;
+			width: 350px;
+			height: 200px;
+			margin-bottom: 3%;
+		}
+	}
+	.concierto {
+		p {
+			&:nth-child(2) {
+				font-size: 16px;
+			}
+			&:first-child {
+				font-size: 12px;
+			}
+			&:nth-child(3) {
+				font-size: 12px;
+			}
+		}
+	}
+	.tickets {
+		a {
+			font-size: 12px;
+			border: 2px solid #65F222;
+		}
+	}
+}
+@media screen and (max-width: 450px) {
+	.videos {
+		iframe {
+			width: 280px;
+			height: 170px;
+		}
+	}
+	.concierto {
+		p {
+			&:nth-child(2) {
+				font-size: 14px;
+			}
+			&:first-child {
+				font-size: 11px;
+			}
+			&:nth-child(3) {
+				font-size: 11px;
+			}
+		}
+	}
+	.tickets {
+		a {
+			font-size: 11px;
+		}
+	}
+}
