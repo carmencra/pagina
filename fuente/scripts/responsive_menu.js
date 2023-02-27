@@ -12,4 +12,11 @@ function myFunction() {
     } else {
       y.className = "compra";
     }
+
+    var z = document.getElementById("header");
+    if (z.className === "header") {
+      z.className += "_responsive";
+    } else {
+      z.className = "header";
+    }
 } 
