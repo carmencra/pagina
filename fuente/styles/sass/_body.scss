@@ -1,6 +1,7 @@
 /* fuentes */
-@import "https://fonts.googleapis.com/css2?family=Fruktur&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Baloo+2&display=swap";
+// @import "https://fonts.googleapis.com/css2?family=Fruktur&display=swap";
+// @import "https://fonts.googleapis.com/css2?family=Baloo+2&display=swap";
+
 /* formato del texto */
 /* sección de productos */
 /* flecha para volver al inicio de la página */
@@ -13,7 +14,7 @@ body {
 	margin: 0%;
 }
 main {
-	background-image: url(../images/fondo_body.png);
+	background-image: url(../../images/fondo_body.png);
 	background-size: cover;
 	background-attachment: fixed;
 	h1 {

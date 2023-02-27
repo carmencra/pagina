@@ -1,8 +1,9 @@
 /* importamos el resto de estilos css */
-@import "body.css";
-@import "header.css";
-@import "footer.css";
-main {
+// @import "body.css";
+// @import "header.css";
+// @import "footer.css";
+
+.tienda_main {
 	padding: 2%;
 }
 .categorias {
@@ -26,14 +27,10 @@ main {
 #active {
 	background-color: $background_morado;
 }
-ul {
-	li {
-		.icono {
-			&:hover {
-				background-color: $background_morado;
-			}
-		}
-	}
+.icono {
+    &:hover {
+        background-color: $background_morado;
+    }
 }
 .productos {
 	padding-top: 2%;
