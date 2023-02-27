@@ -371,7 +371,8 @@ hr {
 footer {
   position: absolute;
   background-color: black;
-  height: 40%;
+  height: -moz-max-content;
+  height: max-content;
   width: 100%;
   left: 0;
   text-align: center;
@@ -414,25 +415,7 @@ footer .discografia a img:hover {
   border-radius: 20%;
 }
 
-@media screen and (min-width: 3500px) {
-  footer {
-    height: 45%;
-  }
-}
-@media screen and (min-width: 2200px) and (max-width: 3499px) {
-  footer {
-    height: 36%;
-  }
-}
-@media screen and (max-width: 2199px) {
-  footer {
-    height: 40%;
-  }
-}
 @media screen and (max-width: 900px) {
-  footer {
-    height: 40%;
-  }
   footer .redes {
     width: 30%;
   }
@@ -441,9 +424,6 @@ footer .discografia a img:hover {
   }
 }
 @media screen and (max-width: 750px) {
-  footer {
-    height: 36%;
-  }
   footer .redes {
     width: 30%;
   }
@@ -452,19 +432,11 @@ footer .discografia a img:hover {
   }
 }
 @media screen and (max-width: 599px) {
-  footer {
-    height: 30%;
-  }
   footer .redes {
     width: 40%;
   }
   footer .discografia {
     width: 55%;
-  }
-}
-@media screen and (max-width: 450px) {
-  footer {
-    height: 26%;
   }
 }
 /* blockquote
