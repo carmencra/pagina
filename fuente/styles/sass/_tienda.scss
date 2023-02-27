@@ -17,20 +17,20 @@ main {
 	}
 }
 .icono {
-	background-color: $background-color_1;
+	background-color: $background_magenta;
 	border-radius: 50%;
 	padding: 10%;
 	width: max-content;
 	margin: auto;
 }
 #active {
-	background-color: $background-color_2;
+	background-color: $background_morado;
 }
 ul {
 	li {
 		.icono {
 			&:hover {
-				background-color: $background-color_2;
+				background-color: $background_morado;
 			}
 		}
 	}
