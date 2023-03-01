@@ -1,13 +1,15 @@
 .main_galeria {
-	padding: 2%;
-    padding-top: 0%;
+    padding: 2%;
+	padding-top: 0%;
 }
 
 .container {
+    position: relative;
     background-color: #1D0E19;
 	padding: 2%;
     padding-top: 2%;
 }
+
 .icon:hover {
     color: white;
 }

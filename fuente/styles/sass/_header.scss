@@ -179,7 +179,6 @@ header {
 			position: absolute;
 			right: 4%;
 			left: auto;
-			top: 12px;
 		}
 	}
 	.menu {
@@ -190,6 +189,9 @@ header {
 	.header_responsive {
 		align-items: start;
 		display: block;
+		a.icon {
+			top: 2px;
+		}
 	}
 	.menu_responsive {
 		width: 30%;
@@ -212,7 +214,7 @@ header {
 	}
 	#compra {
 		a {
-			font-size: 20px;
+			font-size: 18px;
 		}
 	}
 	.compra_responsive {
