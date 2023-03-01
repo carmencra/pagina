@@ -3,14 +3,10 @@
     padding-top: 0%;
 }
 
-#featureContainer .carousel-item {
-    justify-content: space-between;
-}
-
 .container {
     background-color: #1D0E19;
 	padding: 2%;
-    padding-top: 0%;
+    padding-top: 2%;
 }
 .icon:hover {
     color: white;
