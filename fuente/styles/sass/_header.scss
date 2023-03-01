@@ -11,6 +11,7 @@
 } */
 .header {
 	position: fixed;
+	z-index: 1;
 	width: 100%;
 	height: max-content;
 	background-color: $background_negro;
