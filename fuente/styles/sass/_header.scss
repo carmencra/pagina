@@ -9,7 +9,7 @@
         font-size: 12px;
     }
 } */
-.header {
+header {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
@@ -172,7 +172,7 @@
 	}
 }
 @media screen and (max-width: 599px) {
-	.header {
+	header {
 		justify-content: center;
 		a.icon {
 			display: block;
@@ -189,7 +189,6 @@
 	}
 	.header_responsive {
 		align-items: start;
-		height: 32%;
 		display: block;
 	}
 	.menu_responsive {
