@@ -69,17 +69,17 @@
 
 
     <main class="main_galeria">
-        <div class="container my-3 mt-5" id="featureContainer">
+        <div class="container my-3 mt-5" id="galeria_container">
             <div class="row mx-auto my-auto justify-content-center">
-                <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                     <h1 class="font-weight-light float-start mt-5">Publicaciones de instagram</h1>
                     
                     <div class="float-end pe-md-4">
-                        <a class="indicator" href="#featureCarousel" role="button" data-bs-slide="prev">
+                        <a class="indicator" href="#carousel" role="button" data-bs-slide="prev">
                             <span class="fas fa-chevron-left" aria-hidden="true"></span>
                         </a> &nbsp;&nbsp;
 
-                        <a class="w-aut indicator" href="#featureCarousel" role="button" data-bs-slide="next">
+                        <a class="w-aut indicator" href="#carousel" role="button" data-bs-slide="next">
                             <span class="fas fa-chevron-right" aria-hidden="true"></span>
                         </a>
                     </div>
@@ -140,7 +140,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
             <script>
-                let myCarousel = document.querySelectorAll('#featureContainer .carousel .carousel-item');
+                let myCarousel = document.querySelectorAll('#galeria_container .carousel .carousel-item');
                 myCarousel.forEach((el) => {
                     const minPerSlide = 4
                     let next = el.nextElementSibling

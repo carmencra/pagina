@@ -11,9 +11,27 @@
 .icon:hover {
     color: white;
 }
-@media (min-width: 768px) {
+
+
+
+.container .float-end{
+    padding: 5%;
+}
+
+.container .indicator{
+    border: 2px solid #DEB4BD;
+    color: #DEB4BD;
+    padding: 3px 6px 3px 6px;
+}
+.container .indicator:hover{
+    background-color: #6a1e5b;
+}
+
+
+
+@media (min-width: 1200px) {
 	.container {
-		width: 750px;
+		width: 1170px;
 	}
 }
 
@@ -23,62 +41,42 @@
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 	.container {
-		width: 1170px;
+		width: 750px;
 	}
 }
 
-
-
 @media (max-width: 767px) {
-    #featureContainer .carousel-inner .carousel-item > div {
+    .container .carousel-inner .carousel-item > div {
         display: none;
     }
-    #featureContainer .carousel-inner .carousel-item > div:first-child {
+    .container .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
 }
 
-#featureContainer .carousel-inner .carousel-item.active,
-#featureContainer .carousel-inner .carousel-item-next,
-#featureContainer .carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-/* medium and up screens */
 @media (min-width: 768px) {
-    #featureContainer .carousel-inner .carousel-item-end.active,
-    #featureContainer .carousel-inner .carousel-item-next {
+    .container .carousel-inner .carousel-item-end.active,
+    .container .carousel-inner .carousel-item-next {
         transform: translateX(25%);
     }
 
-    #featureContainer .carousel-inner .carousel-item-start.active, 
-    #featureContainer .carousel-inner .carousel-item-prev {
+    .container .carousel-inner .carousel-item-start.active, 
+    .container .carousel-inner .carousel-item-prev {
         transform: translateX(-25%);
     }
 }
 
-#featureContainer .carousel-inner .carousel-item-end,
-#featureContainer .carousel-inner .carousel-item-start { 
+
+/* para pasar de elemento */
+.container .carousel-inner .carousel-item.active,
+.container .carousel-inner .carousel-item-next,
+.container .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.container .carousel-inner .carousel-item-end,
+.container .carousel-inner .carousel-item-start { 
     transform: translateX(0);
-}
-#featureContainer .indicator{
-    border: 1px solid rgb(202, 202, 202);
-    padding: 3px 6px 3px 6px;
-}
-#featureContainer .indicator:hover{
-    background-color: blue;
-    border: 1px solid blue;
-    transition: 200ms;
-}
-#featureContainer .indicator:hover{
-    color: white;
-    transition: 200ms;
-}
-#featureContainer .indicator {
-    color: lightgray;
-}
-#featureContainer .float-end{
-    padding-top: 10px;
 }
