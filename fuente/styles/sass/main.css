@@ -469,6 +469,10 @@ footer .discografia a img:hover {
 /* resto de elementos: fecha y provincia */
 /* sitio del concierto */
 /* resto de elementos: fecha y provincia */
+#titulo_bio {
+  padding-top: 2%;
+}
+
 .bio {
   width: 80%;
   background-color: #1D0E19;
