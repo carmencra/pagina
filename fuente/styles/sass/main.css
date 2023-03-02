@@ -859,6 +859,9 @@ footer .discografia a img:hover {
   padding: 2%;
 }
 
+.categorias {
+  padding-top: 2%;
+}
 .categorias ul {
   display: flex;
   flex-wrap: wrap;
