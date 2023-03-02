@@ -821,12 +821,37 @@ footer .discografia a img:hover {
   margin: auto;
 }
 
+@media screen and (min-width: 3500px) {
+  .ver_spotify a {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 2200px) and (max-width: 3499px) {
+  .ver_spotify a {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ver_spotify a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ver_spotify a {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 745px) {
   .single {
     width: 80%;
   }
   .cancion {
     width: 80%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .ver_spotify a {
+    font-size: 10px;
   }
 }
 /* importamos el resto de estilos css */
