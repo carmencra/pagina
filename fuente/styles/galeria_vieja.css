@@ -1,0 +1,83 @@
+.main_galeria {
+    padding: 2%;
+	padding-top: 0%;
+}
+
+.container {
+    position: relative;
+    background-color: #1D0E19;
+	padding: 2%;
+    padding-top: 2%;
+}
+
+.icon:hover {
+    color: white;
+}
+
+
+
+.container .float-end{
+    padding: 5%;
+}
+
+.container .indicator{
+    border: 2px solid #DEB4BD;
+    color: #DEB4BD;
+    padding: 3px 6px 3px 6px;
+}
+.container .indicator:hover{
+    background-color: #6a1e5b;
+}
+
+
+
+@media (min-width: 1200px) {
+	/* .container {
+		width: 1170px;
+	} */
+}
+
+@media (min-width: 992px) {
+	/* .container {
+		width: 970px;
+	} */
+}
+
+@media (min-width: 768px) {
+	/* .container {
+		width: 750px;
+	} */
+    
+    .container .carousel-inner .carousel-item-end.active,
+    .container .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .container .carousel-inner .carousel-item-start.active, 
+    .container .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+@media (max-width: 767px) {
+    .container .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .container .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+
+
+/* para pasar de elemento */
+.container .carousel-inner .carousel-item.active,
+.container .carousel-inner .carousel-item-next,
+.container .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.container .carousel-inner .carousel-item-end,
+.container .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}

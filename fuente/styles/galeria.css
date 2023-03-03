@@ -1,13 +1,16 @@
 .main_galeria {
-    padding: 2%;
-	padding-top: 0%;
+    padding: 5%;
+    padding-top: 3%;
 }
 
-.container {
-    position: relative;
-    background-color: #1D0E19;
-	padding: 2%;
-    padding-top: 2%;
+.card {
+    background-color: #1D0E19 !important;
+    color: #DEB4BD;
+    padding: 2%;
+}
+
+.card-title {
+    color: #65F222;
 }
 
 .icon:hover {
@@ -16,56 +19,25 @@
 
 
 
-.container .float-end{
+
+.carousel-inner {
     padding: 5%;
+    background-color: #1D0E19;
 }
 
 .container .indicator{
     border: 2px solid #DEB4BD;
-    color: #DEB4BD;
-    padding: 3px 6px 3px 6px;
-}
-.container .indicator:hover{
     background-color: #6a1e5b;
+    color: #DEB4BD;
+    padding: 10%;
 }
 
-
-
-@media (min-width: 1200px) {
-	/* .container {
-		width: 1170px;
-	} */
+.container .carousel-inner .carousel-item > div {
+    display: none;
 }
-
-@media (min-width: 992px) {
-	/* .container {
-		width: 970px;
-	} */
-}
-
-@media (min-width: 768px) {
-	/* .container {
-		width: 750px;
-	} */
-    
-    .container .carousel-inner .carousel-item-end.active,
-    .container .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-
-    .container .carousel-inner .carousel-item-start.active, 
-    .container .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
-}
-
-@media (max-width: 767px) {
-    .container .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .container .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
+.container .carousel-inner .carousel-item > div:first-child {
+    display: block;
+    margin: auto;
 }
 
 
