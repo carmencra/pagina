@@ -1401,7 +1401,14 @@
 
     <!-- flecha para subir al inicio de la página -->
     <a onclick="subir_inicio(); return false; "href="#">
-        <img src="../images/flecha.png" id="flecha" alt="flecha para subir al inicio">
+        <img id="flecha" 
+            srcset="../images/flecha45.png 45w
+                    ../images/flecha36.png 36w"
+            sizes="(max-width: 600px) 36px,
+                    (max-width: 2000px) 45px,
+                    45px"
+            src="../images/flecha45.png" alt="flecha para subir al inicio"
+        />
     </a>
 
 
@@ -1410,11 +1417,11 @@
     <footer>
         <img id="rizha"
             srcset="../images/logo400.png 400w,
-                    ../images/logo275.png 275w,
+                    ../images/logo250.png 250w,
                     ../images/logo180.png 180w"
-            sizes="(max-width: 2000px) 180px,
-                    (max-width: 2999px) 275px,
-                    (min-width: 3000px) 400px,
+            sizes="(max-width: 450px) 180px,
+                    (max-width: 2000px) 180px,
+                    (max-width: 2999px) 250px,
                     180px"
             src="../images/logo180.png" alt="logo Rizha"
         />

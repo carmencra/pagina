@@ -4,7 +4,7 @@
 
 /* formato del texto */
 /* sección de productos */
-/* flecha para volver al inicio de la página */
+/* flecha para volver al inicio de la página */ 
 body {
 	font-family: $font_texto;
 	line-height: 140%;
@@ -71,7 +71,6 @@ hr {
 	left: auto;
 	right: 1%;
 	bottom: 2%;
-	width: 45px;
 	cursor: pointer;
 	&:hover {
 		background-color: $background_morado;
@@ -139,9 +138,6 @@ hr {
 	}
 	h3 {
 		font-size: 16px;
-	}
-	#flecha {
-		width: 36px;
 	}
 	.productos {
 		width: 90%;
