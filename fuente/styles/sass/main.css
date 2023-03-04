@@ -393,9 +393,10 @@ footer .redes img:hover {
 }
 footer .discografia {
   display: flex;
-  width: 35%;
+  width: -moz-max-content;
+  width: max-content;
   margin: auto;
-  justify-content: space-evenly;
+  gap: 5%;
   padding-bottom: 2%;
 }
 footer .discografia a {
@@ -410,21 +411,6 @@ footer .discografia a img:hover {
   border-radius: 20%;
 }
 
-@media screen and (max-width: 900px) {
-  footer .discografia {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 750px) {
-  footer .discografia {
-    width: 45%;
-  }
-}
-@media screen and (max-width: 599px) {
-  footer .discografia {
-    width: 55%;
-  }
-}
 /* importamos el resto de estilos css */
 .main_gira {
   height: 70vh;
