@@ -3,13 +3,17 @@
     padding-top: 3%;
 }
 
-.card {
+.row {
+    margin-bottom: 8%;
+}
+
+.row .card {
     background-color: #1D0E19 !important;
     color: #DEB4BD;
     padding: 2%;
 }
 
-.card-title {
+.row .card-title {
     color: #65F222;
 }
 
@@ -19,37 +23,20 @@
 
 
 
-
-.carousel-inner {
+.carousel {
     padding: 5%;
     background-color: #1D0E19;
 }
 
-.container .indicator{
+.carousel .indicator {
+    z-index: 0;
     border: 2px solid #DEB4BD;
     background-color: #6a1e5b;
     color: #DEB4BD;
-    padding: 10%;
+    align-items: center;
+    padding: 10px;
 }
 
-.container .carousel-inner .carousel-item > div {
-    display: none;
-}
-.container .carousel-inner .carousel-item > div:first-child {
-    display: block;
-    margin: auto;
-}
-
-
-
-/* para pasar de elemento */
-.container .carousel-inner .carousel-item.active,
-.container .carousel-inner .carousel-item-next,
-.container .carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-.container .carousel-inner .carousel-item-end,
-.container .carousel-inner .carousel-item-start { 
-    transform: translateX(0);
+.carousel .carousel-inner {
+    margin-top: 4%;
 }

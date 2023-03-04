@@ -1,0 +1,36 @@
+.main_galeria {
+	padding: 5%;
+	padding-top: 3%;
+}
+.row {
+	margin-bottom: 8%;
+	.card {
+		background-color: $background_magenta !important;
+		color: $color_lila;
+		padding: 2%;
+	}
+	.card-title {
+		color: $color_verde;
+	}
+}
+
+.icon {
+	&:hover {
+		color: $color_blanco;
+	}
+}
+.carousel {
+	padding: 5%;
+	background-color: $background_magenta;
+	.indicator {
+		z-index: 0;
+		border: 2px solid #DEB4BD;
+		background-color: $background_morado;
+		color: $color_lila;
+		align-items: center;
+		padding: 10px;
+	}
+	.carousel-inner {
+		margin-top: 4%;
+	}
+}
