@@ -730,9 +730,6 @@ footer .discografia a img:hover {
   justify-content: center;
   margin: auto;
 }
-.canciones_album img {
-  width: 50px;
-}
 
 .canciones_ep {
   width: 90%;
@@ -743,9 +740,6 @@ footer .discografia a img:hover {
   gap: 8%;
   justify-content: center;
   margin: auto;
-}
-.canciones_ep img {
-  width: 50px;
 }
 
 .album {
@@ -770,10 +764,6 @@ footer .discografia a img:hover {
 .portada a {
   text-decoration: none;
   color: #DEB4BD;
-}
-.portada img {
-  width: 200px;
-  margin: auto;
 }
 
 .ver_spotify {
@@ -805,9 +795,6 @@ footer .discografia a img:hover {
 }
 .single p {
   margin: auto;
-}
-.single img {
-  width: 50px;
 }
 
 .cancion {
