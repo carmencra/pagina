@@ -377,14 +377,13 @@ footer #rizha {
   margin-bottom: 2%;
 }
 footer .redes {
-  width: 16%;
+  width: 22%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 2%;
 }
 footer .redes img {
-  width: 50%;
   padding: 10%;
   border-radius: 20%;
   background-color: #FFFFFF;
@@ -412,25 +411,16 @@ footer .discografia a img:hover {
 }
 
 @media screen and (max-width: 900px) {
-  footer .redes {
-    width: 30%;
-  }
   footer .discografia {
     width: 50%;
   }
 }
 @media screen and (max-width: 750px) {
-  footer .redes {
-    width: 30%;
-  }
   footer .discografia {
     width: 45%;
   }
 }
 @media screen and (max-width: 599px) {
-  footer .redes {
-    width: 40%;
-  }
   footer .discografia {
     width: 55%;
   }

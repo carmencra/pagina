@@ -15,7 +15,7 @@ footer #rizha{
 
 
 footer .redes{
-    width: 16%;
+    width: max-content;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -58,37 +58,7 @@ footer .discografia a img:hover {
 
 
 
-
-@media screen and (min-width: 3500px) {
-    footer {
-        height: 45%;
-    }
-}    
-
-
-@media screen and (min-width: 2200px) and (max-width: 3499px) {
-    footer {
-        height: 36%;
-    }
-}
-
-
-@media screen and (max-width: 2199px) {
-    footer {
-        height: 40%;
-    }
-}
-
-
 @media screen and (max-width: 900px) {
-    footer {
-        height: 40%;
-    }
-
-    footer .redes{
-        width: 30%;
-    }
-
     footer .discografia {
         width: 50%;
     }
@@ -96,14 +66,6 @@ footer .discografia a img:hover {
 
 
 @media screen and (max-width: 750px) {
-    footer {
-        height: 36%;
-    }
-
-    footer .redes{
-        width: 30%;
-    }
-
     footer .discografia {
         width: 45%;
     }
@@ -111,13 +73,6 @@ footer .discografia a img:hover {
 
 
 @media screen and (max-width: 599px) {
-    footer {
-        height: 30%;
-    }
-
-    footer .redes{
-        width: 40%;
-    }
 
     footer .discografia {
         width: 55%;
@@ -125,8 +80,3 @@ footer .discografia a img:hover {
 }
 
 
-@media screen and (max-width: 450px) {
-    footer {
-        height: 26%;
-    }
-}
