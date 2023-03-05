@@ -112,7 +112,16 @@ header {
     font-size: 70px;
   }
 }
-@media screen and (min-width: 2200px) and (max-width: 3499px) {
+@media screen and (min-width: 3000px) and (max-width: 3499px) {
+  .menu ul li {
+    font-size: 60px;
+  }
+  #compra a {
+    border: 7px solid #65F222;
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 2200px) and (max-width: 2999px) {
   .menu ul li {
     font-size: 40px;
   }
@@ -284,23 +293,41 @@ hr {
 
 @media screen and (min-width: 3500px) {
   body {
-    font-size: 44px;
+    font-size: 48px;
   }
   h1 {
-    font-size: 80px;
+    font-size: 85px;
   }
   h2 {
-    font-size: 60px;
+    font-size: 75px;
   }
   h3 {
-    font-size: 48px;
+    font-size: 60px;
   }
   hr {
     margin-top: 0.1%;
     border: 6px solid #65F222;
   }
 }
-@media screen and (min-width: 2200px) and (max-width: 3499px) {
+@media screen and (min-width: 3000px) and (max-width: 3499px) {
+  body {
+    font-size: 34px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+  hr {
+    margin-top: 0.1%;
+    border: 6px solid #65F222;
+  }
+}
+@media screen and (min-width: 2200px) and (max-width: 2999px) {
   body {
     font-size: 22px;
   }

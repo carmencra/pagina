@@ -114,7 +114,22 @@ header {
 		}
 	}
 }
-@media screen and (min-width: 2200px) and (max-width: 3499px) {
+@media screen and (min-width: 3000px) and (max-width: 3499px) {
+	.menu {
+		ul {
+			li {
+				font-size: 60px;
+			}
+		}
+	}
+	#compra {
+		a {
+			border: 7px solid #65F222;
+			font-size: 50px;
+		}
+	}
+}
+@media screen and (min-width: 2200px) and (max-width: 2999px) {
 	.menu {
 		ul {
 			li {
