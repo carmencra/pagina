@@ -686,8 +686,11 @@ footer .discografia a img:hover {
     font-size: 11px;
   }
 }
-main {
+.main_musica {
   padding: 2%;
+}
+.main_musica h2 {
+  margin-left: 3%;
 }
 
 .albumes {
@@ -819,10 +822,6 @@ main {
 }
 .cancion p {
   margin: auto;
-}
-
-h2 {
-  margin-left: 3%;
 }
 
 @media screen and (max-width: 745px) {

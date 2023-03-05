@@ -1,5 +1,8 @@
-main {
+.main_musica {
 	padding: 2%;
+	h2 {
+		margin-left: 3%;
+	}
 }
 .albumes {
 	width: 90%;
@@ -119,9 +122,6 @@ main {
 	p {
 		margin: auto;
 	}
-}
-h2 {
-	margin-left: 3%;
 }
 @media screen and (max-width: 745px) {
 	.album {
