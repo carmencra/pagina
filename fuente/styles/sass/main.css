@@ -161,8 +161,9 @@ header {
   header a.icon {
     display: block;
     position: absolute;
-    right: 4%;
+    right: 2%;
     left: auto;
+    top: 8px;
   }
   .menu ul {
     display: none;
@@ -170,9 +171,6 @@ header {
   .header_responsive {
     align-items: start;
     display: block;
-  }
-  .header_responsive a.icon {
-    top: 2px;
   }
   .menu_responsive {
     width: 30%;
