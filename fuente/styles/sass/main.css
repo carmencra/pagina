@@ -411,6 +411,16 @@ footer .discografia a img:hover {
   border-radius: 20%;
 }
 
+@media screen and (max-width: 650px) {
+  footer .redes {
+    width: 43%;
+  }
+}
+@media screen and (max-width: 400px) {
+  footer .redes {
+    width: 50%;
+  }
+}
 /* importamos el resto de estilos css */
 .main_gira {
   height: 70vh;
