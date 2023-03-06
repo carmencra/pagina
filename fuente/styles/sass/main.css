@@ -933,14 +933,12 @@ footer .discografia a img:hover {
   padding: 5%;
   background-color: #1D0E19;
 }
-.carousel .indicator {
-  z-index: 0;
-  border: 2px solid #DEB4BD;
-  background-color: #6a1e5b;
-  color: #DEB4BD;
-  align-items: center;
-  padding: 10px;
-}
-.carousel .carousel-inner {
-  margin-top: 5%;
+
+@media screen and (max-width: 767px) {
+  .carousel-item > div {
+    display: none;
+  }
+  .carousel-item > div:first-child {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

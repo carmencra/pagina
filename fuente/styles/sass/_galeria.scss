@@ -22,15 +22,18 @@
 .carousel {
 	padding: 5%;
 	background-color: $background_magenta_oscuro;
-	.indicator {
-		z-index: 0;
-		border: 2px solid #DEB4BD;
-		background-color: $background_morado;
-		color: $color_lila_claro;
-		align-items: center;
-		padding: 10px;
+	// .carousel-inner {
+	// 	margin-top: 5%;
+	// 	width: max-content;
+	// 	margin: auto;
+	// }
+}
+
+@media screen and (max-width: 767px) {
+	.carousel-item > div {
+		display: none;
 	}
-	.carousel-inner {
-		margin-top: 5%;
+	.carousel-item > div:first-child {
+		display: block;
 	}
 }
