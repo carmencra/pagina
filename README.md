@@ -7,4 +7,4 @@ Por otra parte, la página dispone también de una galería de imágenes relacio
 
 No te pierdas la oportunidad de conocer más sobre esta artista y su música en esta página de Rizha.
 
-Enlace al hosting: https://carmencra.github.io/pagina_CarmenCRA/fuente/
+Enlace al hosting: https://paginarizha.000webhostapp.com/
