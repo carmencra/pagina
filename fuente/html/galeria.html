@@ -280,11 +280,23 @@
     
 
 
-
     <!-- flecha para subir al inicio de la página -->
     <a onclick="subir_inicio(); return false; "href="#">
-        <img src="../images/flecha.png" id="flecha" alt="flecha para subir al inicio">
-    </a>
+      <img id="flecha" 
+          srcset="../images/flecha140.png 140w,
+                  ../images/flecha80.png 80w,
+                  ../images/flecha60.png 60w,
+                  ../images/flecha45.png 45w,
+                  ../images/flecha36.png 36w"
+          sizes="(max-width: 599px) 36px,
+                  (max-width: 2300px) 45px,
+                  (max-width: 3000px) 60px,
+                  (max-width: 3499px) 80px,
+                  (min-width: 3500px) 140px,
+                  45px"
+          src="../images/flecha45.png" alt="flecha para subir al inicio"
+      />
+  </a>
 
 
 
