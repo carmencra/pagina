@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "parcel:desarrollo": "parcel fuente/index.html",
-    "parcel:produccion": "parcel build fuente/index.html --public-url './'",
+    "parcel:produccion": "parcel build fuente/index.html",
     "limpieza": "rimraf dist .cache .cache-loader",
     "desarrollo": "npm-run-all limpieza parcel:desarrollo",
     "produccion": "npm-run-all limpieza parcel:produccion"
