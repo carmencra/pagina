@@ -6,7 +6,7 @@
 	margin-bottom: 8%;
 	.card {
 		background-color: $background_magenta !important;
-		color: $color_lila;
+		color: $color_lila_claro;
 		padding: 2%;
 	}
 	.card-title {
@@ -21,12 +21,12 @@
 }
 .carousel {
 	padding: 5%;
-	background-color: $background_magenta;
+	background-color: $background_magenta_oscuro;
 	.indicator {
 		z-index: 0;
 		border: 2px solid #DEB4BD;
 		background-color: $background_morado;
-		color: $color_lila;
+		color: $color_lila_claro;
 		align-items: center;
 		padding: 10px;
 	}
