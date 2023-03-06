@@ -907,4 +907,40 @@ footer .discografia a img:hover {
   .categorias h2 {
     font-size: 20px;
   }
+}
+.main_galeria {
+  padding: 5%;
+  padding-top: 3%;
+}
+
+.row {
+  margin-bottom: 8%;
+}
+.row .card {
+  background-color: #1D0E19 !important;
+  color: #DEB4BD;
+  padding: 2%;
+}
+.row .card-title {
+  color: #65F222;
+}
+
+.icon:hover {
+  color: #FFFFFF;
+}
+
+.carousel {
+  padding: 5%;
+  background-color: #1D0E19;
+}
+.carousel .indicator {
+  z-index: 0;
+  border: 2px solid #DEB4BD;
+  background-color: #6a1e5b;
+  color: #DEB4BD;
+  align-items: center;
+  padding: 10px;
+}
+.carousel .carousel-inner {
+  margin-top: 5%;
 }/*# sourceMappingURL=main.css.map */
