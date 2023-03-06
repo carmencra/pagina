@@ -1,6 +1,9 @@
 .main_galeria {
 	padding: 5%;
 	padding-top: 3%;
+	hr {
+		opacity: 100%;
+	}
 }
 .row {
 	margin-bottom: 8%;
@@ -35,5 +38,11 @@
 	}
 	.carousel-item > div:first-child {
 		display: block;
+		.col {
+			width: 100%;
+		}
+		.col:nth-child(2) {
+			margin-top: 5%;
+		}
 	}
 }

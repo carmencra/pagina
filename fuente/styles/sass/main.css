@@ -912,6 +912,9 @@ footer .discografia a img:hover {
   padding: 5%;
   padding-top: 3%;
 }
+.main_galeria hr {
+  opacity: 100%;
+}
 
 .row {
   margin-bottom: 8%;
@@ -940,5 +943,11 @@ footer .discografia a img:hover {
   }
   .carousel-item > div:first-child {
     display: block;
+  }
+  .carousel-item > div:first-child .col {
+    width: 100%;
+  }
+  .carousel-item > div:first-child .col:nth-child(2) {
+    margin-top: 5%;
   }
 }/*# sourceMappingURL=main.css.map */
